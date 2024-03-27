@@ -1,0 +1,26 @@
+.bg{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.container{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.lnk{
+    transition: all 0.6s;
+}
+.lnk:hover{
+    color: red;
+    background:none;
+}
