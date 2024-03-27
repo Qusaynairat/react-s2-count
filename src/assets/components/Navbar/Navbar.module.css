@@ -14,11 +14,13 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
     padding: 10px;
 }
 .lnk{
     transition: all 0.6s;
+    text-decoration: none;
 }
 .lnk:hover{
     color: red;
